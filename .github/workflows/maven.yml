@@ -22,4 +22,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
-      run: mvn -B test site --file pom.xml -Dbrowser=${{matrix.browser}}
+      run: mvn clean test -Dbrowser=${{matrix.browser}}
