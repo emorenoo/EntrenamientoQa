@@ -1,4 +1,4 @@
-#Cambio de dependencia
+#Cambio de dependencia y properties
 name: Java CI with Maven
 
 on:
