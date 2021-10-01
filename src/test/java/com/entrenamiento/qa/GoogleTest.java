@@ -1,5 +1,6 @@
 package com.entrenamiento.qa;
 
+
 import static org.junit.Assert.assertEquals;
 import java.util.concurrent.TimeUnit;
 import org.junit.After;
