@@ -42,11 +42,6 @@ public class BlouseSale {
 		driver.get("https://www.google.com/"); 
 	}
 
-	@After
-	public void tearDown() throws Exception {
-		
-	}
-
 	@Test
 	public void test() throws InterruptedException {
 		driver.findElement(Women).click();
